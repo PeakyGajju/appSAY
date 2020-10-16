@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="src/css/company.css">
+    <link  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="src/css/company.css">
+
+    <title ></title>
+</head>
+<body>
+  <div class="page-content">
+    <h1 class="text-center mdl-color-text--primary chatName"></h1>
+    <div id="shared-moments"></div>
+    <br><br><br><br><br>
+  </div>
+
+     
+  <div class="footer">
+    <div  class="conversation-compose">
+        <div class="emoji">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" id="smiley" x="3147" y="3209"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.153 11.603c.795 0 1.44-.88 1.44-1.962s-.645-1.96-1.44-1.96c-.795 0-1.44.88-1.44 1.96s.645 1.965 1.44 1.965zM5.95 12.965c-.027-.307-.132 5.218 6.062 5.55 6.066-.25 6.066-5.55 6.066-5.55-6.078 1.416-12.13 0-12.13 0zm11.362 1.108s-.67 1.96-5.05 1.96c-3.506 0-5.39-1.165-5.608-1.96 0 0 5.912 1.055 10.658 0zM11.804 1.01C5.61 1.01.978 6.034.978 12.23s4.826 10.76 11.02 10.76S23.02 18.424 23.02 12.23c0-6.197-5.02-11.22-11.216-11.22zM12 21.355c-5.273 0-9.38-3.886-9.38-9.16 0-5.272 3.94-9.547 9.214-9.547a9.548 9.548 0 0 1 9.548 9.548c0 5.272-4.11 9.16-9.382 9.16zm3.108-9.75c.795 0 1.44-.88 1.44-1.963s-.645-1.96-1.44-1.96c-.795 0-1.44.878-1.44 1.96s.645 1.963 1.44 1.963z" fill="#7d8489"/></svg>
+        </div>
+        <form id="chat-form">
+          <input class="input-msg" name="input" id="msg" placeholder="Type a message" autocomplete="off" autofocus></input>
+       
+          <button class="send">
+            <div class="circle">Send
+            </div>
+          </button>
+       
+        </form>
+      
+
+      
+      </fodrm>
+  </div>
+
+</body>
+<script src="src/js/material.min.js"></script>
+<script src="src/js/promise.js"></script>
+<script src="src/js/fetch.js"></script>
+<script src="src/js/idb.js"></script>
+<!-- <script src="src/js/utility2.js"></script> -->
+<script src="/socket.io/socket.io.js"></script>
+<script src="src/js/company1.js"></script>
+</html>

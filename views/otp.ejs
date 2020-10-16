@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta name="theme-color" content="#eb6434"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="AppSay">
+    <link rel="apple-touch-icon" href="/src/images/icons/57.png" sizes="57x57">
+    <link rel="apple-touch-icon" href="/src/images/icons/60.png" sizes="60x60">
+    <link rel="apple-touch-icon" href="/src/images/icons/72.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="/src/images/icons/76.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="/src/images/icons/114.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="/src/images/icons/120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="/src/images/icons/144.png" sizes="144x144">
+    <link rel="apple-touch-icon" href="/src/images/icons/152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="/src/images/icons/180.png" sizes="180x180">
+    <meta name="msapplication-TileImage" content="/src/images/icons/app-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#fff"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/styleOtp.css">
+    <title>Otp</title>
+    <link rel = "icon" href = "favicon.png"> 
+
+</head>
+<body>
+    <div id="divOuter">
+        Hello <%= nickName %> <br>
+        <%= message %> 
+        enter the OTP sent to mobile number <%= phoneNo %> .<br><br>
+        <div id="divInner">
+      <form action="/otp-check" method="post">
+      <input id="partitioned" type="text" name = "otpInput" maxlength="4" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"  onKeyPress="if(this.value.length==4) return false;"/>
+      <br><br>
+      <input type="submit" value="Submit" class="btn btn-outline-success submit-button btn-lg">
+    </form>
+        </div>
+        <%= errorMsg %> 
+      </div>
+</body>
+</html>

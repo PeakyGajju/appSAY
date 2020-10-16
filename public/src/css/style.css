@@ -1,0 +1,93 @@
+.heading{
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 40px;
+  font-weight:300;
+    margin: auto;
+  margin-top:20px;
+  letter-spacing: 2px;
+    text-align: center;
+}
+
+
+.tagLine{
+  margin: auto;
+  letter-spacing: 1px;
+  text-align: center;
+
+}
+
+#PhoneNumber{
+background-color: #ffcb8e;
+border: 1px solid #ccc;
+border-radius: 6px;
+display: inline-block;
+font-size: 15px;
+padding: 12px 20px;
+margin:  8px 0;
+}
+
+#nickName{
+  background-color: #ffcb8e;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  display: inline-block;
+  font-size: 15px;
+  margin: 8px 0;
+  padding: 12px 20px;
+
+}
+
+.chat-icon{
+  display: block;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.form-control{
+  padding: 50px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.btn{
+  background-color: #290001;
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+    margin: 8px 0;
+  padding: 12px 70px;
+  text-align: center;
+}
+
+.highlight{
+  color: #290001;
+  font-weight: bolder;
+}
+
+#Agreement{
+  margin: 14px 0;
+  margin-right: 12px;
+}
+
+#checkBox{
+  display: block;
+  margin: auto;
+  margin-left: 270px;
+  letter-spacing: 2px;
+}
+
+#registerAsCompany{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+
+}
+
+
+/* #info{
+  text-align: center;
+  /* margin-top: 200px;
+  margin-bottom: 200px; */
+  /* margin: auto; */
+ /* }  */

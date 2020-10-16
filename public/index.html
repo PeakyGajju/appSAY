@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#eb6434"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="AppSay">
+    <link rel="apple-touch-icon" href="/src/images/icons/57.png" sizes="57x57">
+    <link rel="apple-touch-icon" href="/src/images/icons/60.png" sizes="60x60">
+    <link rel="apple-touch-icon" href="/src/images/icons/72.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="/src/images/icons/76.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="/src/images/icons/114.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="/src/images/icons/120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="/src/images/icons/144.png" sizes="144x144">
+    <link rel="apple-touch-icon" href="/src/images/icons/152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="/src/images/icons/180.png" sizes="180x180">
+    <meta name="msapplication-TileImage" content="/src/images/icons/app-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#fff">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <link  href="https://images.app.goo.gl/T1fEhtQUooUAwPiq8">
+    <link  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel = "icon" href = "favicon.png"> 
+
+    <title>Appsay</title>
+
+  </head>
+  <body>
+
+    <div class="#info">
+      <img class="chat-icon" src="src/images/chat.png" alt="chat-icon">
+      <h1 class="heading">appSAY</h1>
+      <br>
+      <h3 class="tagLine">Experience the power of choice!</h3>
+    </div>
+
+    <form class="" action="/otpVerification" onsubmit="return storeDetails()" method="post" name="registrationForm">
+      <div class="form-control">
+
+        <div class="input-group mb-3">
+          <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="Enter Mobile No." aria-label="PhoneNumber" aria-describedby="basic-addon1" autocomplete="off">
+      </div>
+
+      <div class="input-group mb-3">
+          <input type="text" id="nickName" name="nickName" placeholder="Enter Your nickName" aria-label="nickName" aria-describedby="inputGroup-sizing-default" autocomplete="off">
+      </div>
+
+      <div class="registerBtn">
+        <button type="submit" id="register" class="btn btn-dark btn-lg" disabled>REGISTER</button>
+      </div>
+
+      <div class="checkBox">
+        <input type="checkBox" id="registerAsCompany" name="checkForCompany" value="true">
+        <label for="registerAsCompany" style="font-size:x-large; letter-spacing: 1.5px;
+        color:darkslategray; font-weight: 900;">Register As a Company</label>
+      </div>
+
+      <div class="checkBox">
+        <input type="checkbox" id="Agreement" value="1" onclick="terms_changed(this)">
+        <label for="Agreement"> I accept the </label>
+        <span class="highlight">Terms and Conditions</span>
+
+      </div>
+
+      </div>
+    </form>
+
+
+
+
+
+
+    <script src="src/js/promise.js"></script>
+    <script src="src/js/fetch.js"></script>
+    <script src="src/js/idb.js"></script>
+    <!-- <script src="src/js/utility.js"></script> -->
+    <script src="src/js/registerScreen.js"></script>
+    <script src="src/js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+</html>

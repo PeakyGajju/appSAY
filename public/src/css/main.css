@@ -1,0 +1,109 @@
+@media (min-width:1200px) {
+  .form-control {
+    margin-left: 300px;
+    margin-right: 60px;
+
+   }
+
+   .btn {
+    margin-left: 10px;
+  }
+  .item{
+      font-size: 50px;
+  }
+
+}
+
+@media (min-width:992px) {
+
+  .item{
+    font-size: 40px;
+  }
+
+}
+
+@media (min-width:768px) {
+  .item{
+    font-size:30px;
+  }
+
+
+}
+
+@media (min-width:576px) {
+
+  .item{
+    font-size: 30px;
+  }
+
+}
+  @media (max-width:576px) {
+    .item{
+      font-size: 25px;
+    }
+
+    .btn{
+      margin-top: 20px;
+    }
+
+    .form-control{
+      margin-bottom: 10px;
+    }
+
+
+}
+
+
+
+.navbar-nav {
+  margin-left: 100px;
+}
+
+.navbar-brand{
+
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  }
+
+.nav-link{
+
+    font-size: 1.2rem;
+  }
+
+  .chatimg{
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .item{
+
+    text-align: center;
+      font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .person{
+    color: #f6f4e6;
+  }
+
+  .pic{
+  text-align: center;
+  }
+
+  .container-fluid{
+      margin-top: 20px;
+
+  }
+
+  body{
+      background-color: #797a7e;
+  }
+.enableNotificationButton, .sendSampleNotification{
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: 'none';
+
+}

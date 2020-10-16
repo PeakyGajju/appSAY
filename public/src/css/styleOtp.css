@@ -1,0 +1,31 @@
+
+#partitioned {
+  padding-left: 15px;
+  letter-spacing: 38px;
+  border: 0;
+  background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 50px 1px;
+  background-repeat: repeat-x;
+  background-position-x: 40px;
+  width: 205px;
+  min-width: 205px;
+}
+
+#divInner{
+  left: 0;
+  position: sticky;
+}
+
+#divOuter{
+    text-align: center;
+    padding-top: 10%;
+   margin: auto;
+  width: 350px; 
+  overflow: hidden;
+}
+
+.otp-message{
+    padding-top: 100px;
+    position: absolute;
+}
