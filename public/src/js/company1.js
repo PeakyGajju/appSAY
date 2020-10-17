@@ -116,7 +116,7 @@ function outputMessage(message) {
     var msgTitleTextElement = document.createElement('h5');
     msgTitleTextElement.style.color = 'black';
     msgTitleTextElement.className = 'message-title';
-    msgTitleTextElement.textContent = "from - "+loginName+" - "+message.time;
+    msgTitleTextElement.textContent = "from - "+message.from+" - "+message.time;
     msgTitle.appendChild(msgTitleTextElement);
     var msgSupportingText = document.createElement('div');
     msgSupportingText.className = 'message-body';
